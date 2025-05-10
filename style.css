@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.maindiv {
+
+    margin: auto;
+    background-color: aliceblue;
+    height: 90vh;
+    width: 50vw;
+    border: 2px solid blue;
+    position: relative;
+    top: 24px;
+}
+
+.innerdiv {
+
+    border-radius: 10px;
+    background-color: lightcyan;
+    height: 80%;
+    margin: auto;
+    position: absolute;
+    width: 80%;
+    top: 36px;
+    left: 55px;
+    border: 2px solid blue;
+    margin: auto;
+    transition: 0.4s ease-in-out;
+}
+
+.innerdiv:hover {
+    box-shadow: 0px 0px 10px 5px blue;
+    transform: translateY(-10px);
+
+}
+
+.img {
+
+    top: 5px;
+    left: 10px;
+    position: absolute;
+    height: 40%;
+    width: 96%;
+    border-radius: 10px;
+
+
+
+}
+
+#btn1 {
+    color: black;
+    background-color: lightcyan;
+    display: inline-block;
+    position: relative;
+    top: 207px;
+    left: 19px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: 2px solid blue;
+    transition: 0.4s ease-in-out;
+
+}
+
+#btn1:hover {
+    box-shadow: 0px 0px 10px 5px blue;
+    /* transition: 0.5s ease-in-out all; */
+
+}
+
+#btn2 {
+    color: black;
+    background-color: lightcyan;
+    display: inline-block;
+    position: relative;
+    top: 207px;
+    left: 46px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: 2px solid blue;
+    transition: 0.4s ease-in-out;
+
+}
+
+#btn2:hover {
+    box-shadow: 0px 0px 10px 5px blue;
+
+
+}
+
+#head1 {
+    color: black;
+    background-color: lightcyan;
+    position: absolute;
+    top: 253px;
+    left: 10px;
+    /* box-shadow: 3px 8px 7px 4px black; */
+}
+
+#p1 {
+    color: black;
+    background-color: lightcyan;
+    position: absolute;
+    top: 295px;
+    left: 11px;
+}
+
+#RM {
+    color: black;
+    background-color: lightcyan;
+    position: relative;
+    top: 421px;
+    padding: 5px 10px;
+    background-color: rgb(125, 201, 227);
+    color: blue;
+    font-weight: bold;
+    left: 105px;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+#RM:hover {
+    box-shadow: 0px 0px 10px 5px blue;
+
+
+
+}
